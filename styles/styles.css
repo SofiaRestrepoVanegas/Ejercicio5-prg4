@@ -1,0 +1,151 @@
+body{
+  font-family:Arial;
+  margin: 0%;
+}
+
+.inicio{
+  height: 85vh;
+  background: url('../img/Girl.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  position: relative;
+}
+
+.menu{
+  padding: 0%;
+}
+
+.menu .container-fluid{
+  padding: 0;
+}
+
+.menu__logo{
+  color: #34b7c1;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.menu__img{
+  width: 70px;
+  margin-right: 2px;
+}
+
+.menu .nav-link.active{
+  color: #34b7c1;
+  font-size: 13px;
+}
+
+.menu .nav-link{
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.menu__lista .nav-item{
+  margin-left: 20px;
+}
+
+.menu__boton{
+  background: #06bbcc;
+  color: white;
+  padding: 25px 40px;
+  font-weight: bold;
+  border-radius: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.inicio__subtitulo{
+  color:#34b7c1 ;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 90px;
+}
+
+.inicio__titulo{
+  color: white;
+  font-size: 50px;
+  margin-bottom: 15px;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+}
+ 
+.inicio__texto{
+  color: white;
+  font-size: 15px;
+  margin-bottom: 30px;
+  font-family: Arial;
+}
+
+.inicio .btn-info{
+  background-color: #06bbcc;
+  border-radius: 0%;
+  padding: 12px 25px;
+  font-size: 15px;
+}
+
+.inicio .btn-light{
+  background-color: white;
+  border-radius: 0%;
+  padding: 12px 25px;
+  font-size: 15px;
+  
+}
+
+.icono__flechas{
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.flecha{
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.icono__subir{
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  color: #06bbcc;
+  font-size: 40px;
+  border-radius: 0%;
+}
+
+@media (max-width: 768px){
+
+  .inicio{
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .inicio__titulo,
+  .inicio__texto,
+  .inicio__subtitulo{
+    text-align: center;
+  }
+
+  .inicio__botones .btn{
+    display: block;
+    margin: 10px auto;
+  }
+
+  .icono__flechas{
+    display: none;
+  }
+
+}
+
+
